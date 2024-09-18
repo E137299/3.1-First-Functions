@@ -34,8 +34,8 @@ def is_even(number):
 **Example Usage:**
 ```python
 #Example 1
-difference = is_even(4))  
-print(difference)# Output: True
+value = is_even(4))  
+print(value)# Output: True
 
 #Example 2
 print(is_even(7))  # Output: False
@@ -55,7 +55,11 @@ def absolute_difference(a, b):
 **Example Usage:**
 
 ```python
-print(absolute_difference(10, 4))  # Output: 6
+#Example 1
+difference = absolute_difference(10, 4)
+print(difference)  # Output: 6
+
+#Example 2
 print(absolute_difference(4, 10))  # Output: 6
 ```
 
@@ -74,7 +78,11 @@ def largest_of_three(x, y, z):
 **Example Usage:**
 
 ```python
-print(largest_of_three(3, 7, 5))  # Output: 7
+#Example 1
+largest = largest_of_three(3, 7, 5)
+print(largest)  # Output: 7
+
+#Example 2
 print(largest_of_three(10, 10, 9))  # Output: 10
 ```
 <br></br>
@@ -93,7 +101,11 @@ def is_vowel(c):
 **Example Usage:**
 
 ```python
-print(is_vowel('A'))  # Output: True
+#Example 1
+letter = is_vowel('A')
+print(letter)  # Output: True
+
+#Example 2
 print(is_vowel('b'))  # Output: False
 ```
 <br></br>
@@ -132,7 +144,11 @@ def is_leap_year(year):
 **Example Usage:**
 
 ```python
-print(is_leap_year(2024))  # Output: True
+#Example 1
+leap = is_leap_year(2024)
+print(leap)  # Output: True
+
+#Example 2
 print(is_leap_year(1900))  # Output: False
 ```
 
